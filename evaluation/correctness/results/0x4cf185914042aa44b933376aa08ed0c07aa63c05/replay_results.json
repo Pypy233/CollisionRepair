@@ -1,0 +1,46 @@
+{
+  "summary": {
+    "totalTransactions": 6,
+    "successfulTransactions": 5,
+    "outOfGasTransactions": 0,
+    "otherErrors": 1,
+    "timestamp": "2025-05-20T05:30:45.298Z"
+  },
+  "transactions": [
+    {
+      "hash": "0x9c426425715c05be721b6b8407e8e5185dc2c1e913f8f80e5a8be53a90f0ae2d",
+      "status": "failed",
+      "error": "Returned error: Cannot wrap string value \"\" as a json-rpc type; strings must be prefixed with \"0x\"."
+    },
+    {
+      "hash": "0x027237ebb2b041da2377474e93b7811439f092b2b00b9adfdc9a15bfd8d01238",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 43116
+    },
+    {
+      "hash": "0x78f142aaa10748974f69f33d5a399d5c2d5fd8f0d9aa4c25d68be3fade02bf4a",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 83926
+    },
+    {
+      "hash": "0xb6dbd3d7b140e1f6213b2f6f35ca1d1293c2066343e55d5f930f71084ec4c7f1",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 43074
+    },
+    {
+      "hash": "0x773fdef36c7ce3c614c98e6075faadb9066f4ece957fbe92a1410869643915be",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 42177
+    },
+    {
+      "hash": "0x3618749d67e565601d2d76367d57586bef7b6ef91f0317139554b661fde722aa",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 83926
+    }
+  ]
+}

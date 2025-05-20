@@ -1,0 +1,40 @@
+INFO - [+] Runtime code detected
+WARNING - function signatures collision: ['ideal_warn_timed(uint256,uint128)', 'owner()']
+WARNING - function signatures collision: ['symbol()', 'link_classic_internal(uint64,int64)']
+WARNING - function signatures collision: ['decimals()', 'available_assert_time(uint16,uint64)']
+WARNING - function signatures collision: ['ideal_warn_timed(uint256,uint128)', 'owner()']
+WARNING - function signatures collision: ['symbol()', 'link_classic_internal(uint64,int64)']
+WARNING - function signatures collision: ['decimals()', 'available_assert_time(uint16,uint64)']
+INFO - [+] Runtime code detected
+INFO - [+] Runtime code detected
+INFO - [+] Runtime code detected
+INFO - [+] Runtime code detected
+INFO - [+] Runtime code detected
+INFO - [+] Runtime code detected
+WARNING - function signatures collision: ['symbol()', 'link_classic_internal(uint64,int64)']
+WARNING - function signatures collision: ['ideal_warn_timed(uint256,uint128)', 'owner()']
+INFO - [+] Runtime code detected
+INFO - [+] Runtime code detected
+INFO - [+] Runtime code detected
+INFO - [+] Runtime code detected
+INFO - [+] Runtime code detected
+INFO - [+] Swarm hash detected in bytecode
+INFO - [+] Swarm hash value: 0xa165627a7a72305820cad04385ddc9f12a37f2168fb505abb7129b83062eace9168cec163cb09c7a910029
+INFO - [+] Swarm hash removed from bytecode
+INFO - [+] Runtime code detected
+INFO - [+] Runtime code detected
+INFO - [+] Swarm hash detected in bytecode
+INFO - [+] Swarm hash value: 0xa165627a7a723058208dba106c13ae2e37600e815388e1e660989aa39ff04c6b87f7c6f5636e10d43e0029
+INFO - [+] Swarm hash removed from bytecode
+WARNING - function signatures collision: ['decimals()', 'available_assert_time(uint16,uint64)']
+WARNING - function signatures collision: ['collate_propagate_storage(bytes16)', 'burn(uint256)']
+WARNING - function signatures collision: ['ideal_warn_timed(uint256,uint128)', 'owner()']
+WARNING - function signatures collision: ['symbol()', 'link_classic_internal(uint64,int64)']
+INFO - [+] Runtime code detected
+INFO - 
+==================================================
+INFO - BATCH PROCESSING SUMMARY
+INFO - ==================================================
+INFO - Total files: 20
+INFO - Successful: 20
+INFO - Failed: 0

@@ -1,0 +1,2786 @@
+{
+  "total_contracts": 20,
+  "valid_contracts": 20,
+  "invalid_contracts": 0,
+  "error_contracts": 0,
+  "total_sstores": 515,
+  "valid_sstores": 515,
+  "invalid_sstores": 0,
+  "details": [
+    {
+      "status": "success",
+      "contract": "0x2d129Eb56b24f3101400B538C12D1A7298F462Ab",
+      "sstore_count": 21,
+      "valid_sstores": 21,
+      "invalid_sstores": 0,
+      "differences": [
+        {
+          "original_sstore_index": 0,
+          "original_position": 2162,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 1,
+          "original_position": 2552,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 2,
+          "original_position": 2672,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 3,
+          "original_position": 3022,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 4,
+          "original_position": 3090,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 5,
+          "original_position": 3854,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 6,
+          "original_position": 4306,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 7,
+          "original_position": 4804,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 8,
+          "original_position": 4810,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 9,
+          "original_position": 5292,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 10,
+          "original_position": 6248,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 11,
+          "original_position": 6260,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 12,
+          "original_position": 7102,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 13,
+          "original_position": 7108,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 14,
+          "original_position": 7676,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 15,
+          "original_position": 8412,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 16,
+          "original_position": 8844,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 17,
+          "original_position": 8928,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 18,
+          "original_position": 10008,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 19,
+          "original_position": 10050,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 20,
+          "original_position": 10082,
+          "is_instrumented": true
+        }
+      ],
+      "is_valid": true
+    },
+    {
+      "status": "success",
+      "contract": "0x3cce4db960f037fb097ee8e8881bf6f9667515a4",
+      "sstore_count": 12,
+      "valid_sstores": 12,
+      "invalid_sstores": 0,
+      "differences": [
+        {
+          "original_sstore_index": 0,
+          "original_position": 2850,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 1,
+          "original_position": 3274,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 2,
+          "original_position": 3590,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 3,
+          "original_position": 3730,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 4,
+          "original_position": 3852,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 5,
+          "original_position": 4288,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 6,
+          "original_position": 4294,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 7,
+          "original_position": 4408,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 8,
+          "original_position": 4890,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 9,
+          "original_position": 5014,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 10,
+          "original_position": 5364,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 11,
+          "original_position": 6166,
+          "is_instrumented": true
+        }
+      ],
+      "is_valid": true
+    },
+    {
+      "status": "success",
+      "contract": "0x3db932023b4fc1dd6adbf56c659d452686b8c6c1",
+      "sstore_count": 32,
+      "valid_sstores": 32,
+      "invalid_sstores": 0,
+      "differences": [
+        {
+          "original_sstore_index": 0,
+          "original_position": 884,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 1,
+          "original_position": 2650,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 2,
+          "original_position": 4254,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 3,
+          "original_position": 6048,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 4,
+          "original_position": 8050,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 5,
+          "original_position": 8358,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 6,
+          "original_position": 8372,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 7,
+          "original_position": 8422,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 8,
+          "original_position": 9292,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 9,
+          "original_position": 9728,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 10,
+          "original_position": 10114,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 11,
+          "original_position": 10422,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 12,
+          "original_position": 10474,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 13,
+          "original_position": 12470,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 14,
+          "original_position": 13014,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 15,
+          "original_position": 13734,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 16,
+          "original_position": 14702,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 17,
+          "original_position": 15338,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 18,
+          "original_position": 16626,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 19,
+          "original_position": 17816,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 20,
+          "original_position": 19784,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 21,
+          "original_position": 21958,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 22,
+          "original_position": 22028,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 23,
+          "original_position": 22976,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 24,
+          "original_position": 23078,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 25,
+          "original_position": 23402,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 26,
+          "original_position": 23764,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 27,
+          "original_position": 24648,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 28,
+          "original_position": 24818,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 29,
+          "original_position": 25590,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 30,
+          "original_position": 25606,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 31,
+          "original_position": 37022,
+          "is_instrumented": true
+        }
+      ],
+      "is_valid": true
+    },
+    {
+      "status": "success",
+      "contract": "0x2b37849DBf48165400BB6dFE629f972030bf207e",
+      "sstore_count": 27,
+      "valid_sstores": 27,
+      "invalid_sstores": 0,
+      "differences": [
+        {
+          "original_sstore_index": 0,
+          "original_position": 68,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 1,
+          "original_position": 90,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 2,
+          "original_position": 954,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 3,
+          "original_position": 1534,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 4,
+          "original_position": 2690,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 5,
+          "original_position": 3012,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 6,
+          "original_position": 3126,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 7,
+          "original_position": 3726,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 8,
+          "original_position": 4208,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 9,
+          "original_position": 6474,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 10,
+          "original_position": 6486,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 11,
+          "original_position": 6596,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 12,
+          "original_position": 6608,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 13,
+          "original_position": 7180,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 14,
+          "original_position": 7882,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 15,
+          "original_position": 7970,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 16,
+          "original_position": 7982,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 17,
+          "original_position": 8248,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 18,
+          "original_position": 8262,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 19,
+          "original_position": 8274,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 20,
+          "original_position": 8276,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 21,
+          "original_position": 8476,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 22,
+          "original_position": 8560,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 23,
+          "original_position": 9640,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 24,
+          "original_position": 9682,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 25,
+          "original_position": 9714,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 26,
+          "original_position": 11826,
+          "is_instrumented": true
+        }
+      ],
+      "is_valid": true
+    },
+    {
+      "status": "success",
+      "contract": "0x2e9955fdD6ad455A0aF0abEF6aFc1Dd7d218f55a",
+      "sstore_count": 19,
+      "valid_sstores": 19,
+      "invalid_sstores": 0,
+      "differences": [
+        {
+          "original_sstore_index": 0,
+          "original_position": 298,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 1,
+          "original_position": 2802,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 2,
+          "original_position": 3168,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 3,
+          "original_position": 3312,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 4,
+          "original_position": 3368,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 5,
+          "original_position": 3388,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 6,
+          "original_position": 3914,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 7,
+          "original_position": 4048,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 8,
+          "original_position": 4768,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 9,
+          "original_position": 5230,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 10,
+          "original_position": 5732,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 11,
+          "original_position": 6246,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 12,
+          "original_position": 7778,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 13,
+          "original_position": 8400,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 14,
+          "original_position": 8842,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 15,
+          "original_position": 8988,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 16,
+          "original_position": 9218,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 17,
+          "original_position": 9522,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 18,
+          "original_position": 10228,
+          "is_instrumented": true
+        }
+      ],
+      "is_valid": true
+    },
+    {
+      "status": "success",
+      "contract": "0x3f995ef6b569d2f988f7d94062b9d3a00c967ac5",
+      "sstore_count": 19,
+      "valid_sstores": 19,
+      "invalid_sstores": 0,
+      "differences": [
+        {
+          "original_sstore_index": 0,
+          "original_position": 276,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 1,
+          "original_position": 3758,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 2,
+          "original_position": 4254,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 3,
+          "original_position": 4658,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 4,
+          "original_position": 5028,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 5,
+          "original_position": 5096,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 6,
+          "original_position": 6136,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 7,
+          "original_position": 6150,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 8,
+          "original_position": 6706,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 9,
+          "original_position": 7304,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 10,
+          "original_position": 7358,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 11,
+          "original_position": 7912,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 12,
+          "original_position": 9338,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 13,
+          "original_position": 12184,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 14,
+          "original_position": 12920,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 15,
+          "original_position": 13254,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 16,
+          "original_position": 13808,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 17,
+          "original_position": 14494,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 18,
+          "original_position": 15700,
+          "is_instrumented": true
+        }
+      ],
+      "is_valid": true
+    },
+    {
+      "status": "success",
+      "contract": "0x2f1552bc7baf2a3832921972f080072a73895266",
+      "sstore_count": 36,
+      "valid_sstores": 36,
+      "invalid_sstores": 0,
+      "differences": [
+        {
+          "original_sstore_index": 0,
+          "original_position": 352,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 1,
+          "original_position": 2392,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 2,
+          "original_position": 3368,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 3,
+          "original_position": 3814,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 4,
+          "original_position": 3958,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 5,
+          "original_position": 4408,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 6,
+          "original_position": 4502,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 7,
+          "original_position": 4646,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 8,
+          "original_position": 4740,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 9,
+          "original_position": 4840,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 10,
+          "original_position": 4852,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 11,
+          "original_position": 4858,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 12,
+          "original_position": 4864,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 13,
+          "original_position": 5336,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 14,
+          "original_position": 5474,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 15,
+          "original_position": 5942,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 16,
+          "original_position": 6424,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 17,
+          "original_position": 9050,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 18,
+          "original_position": 9062,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 19,
+          "original_position": 9172,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 20,
+          "original_position": 9184,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 21,
+          "original_position": 9744,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 22,
+          "original_position": 10398,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 23,
+          "original_position": 10480,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 24,
+          "original_position": 10568,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 25,
+          "original_position": 10580,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 26,
+          "original_position": 10846,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 27,
+          "original_position": 10860,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 28,
+          "original_position": 10872,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 29,
+          "original_position": 10874,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 30,
+          "original_position": 11074,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 31,
+          "original_position": 11158,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 32,
+          "original_position": 12238,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 33,
+          "original_position": 12280,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 34,
+          "original_position": 12312,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 35,
+          "original_position": 12424,
+          "is_instrumented": true
+        }
+      ],
+      "is_valid": true
+    },
+    {
+      "status": "success",
+      "contract": "0x0289dfBD55567758a8a92CE517009e0b6f06E6Bc",
+      "sstore_count": 35,
+      "valid_sstores": 35,
+      "invalid_sstores": 0,
+      "differences": [
+        {
+          "original_sstore_index": 0,
+          "original_position": 352,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 1,
+          "original_position": 3338,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 2,
+          "original_position": 3784,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 3,
+          "original_position": 3928,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 4,
+          "original_position": 4378,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 5,
+          "original_position": 4534,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 6,
+          "original_position": 4680,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 7,
+          "original_position": 4836,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 8,
+          "original_position": 4938,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 9,
+          "original_position": 4950,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 10,
+          "original_position": 4956,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 11,
+          "original_position": 4962,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 12,
+          "original_position": 5434,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 13,
+          "original_position": 5634,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 14,
+          "original_position": 6104,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 15,
+          "original_position": 6586,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 16,
+          "original_position": 9212,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 17,
+          "original_position": 9224,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 18,
+          "original_position": 9334,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 19,
+          "original_position": 9346,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 20,
+          "original_position": 9906,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 21,
+          "original_position": 10642,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 22,
+          "original_position": 10730,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 23,
+          "original_position": 10742,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 24,
+          "original_position": 11008,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 25,
+          "original_position": 11022,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 26,
+          "original_position": 11034,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 27,
+          "original_position": 11036,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 28,
+          "original_position": 11236,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 29,
+          "original_position": 11320,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 30,
+          "original_position": 12400,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 31,
+          "original_position": 12442,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 32,
+          "original_position": 12474,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 33,
+          "original_position": 14486,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 34,
+          "original_position": 15536,
+          "is_instrumented": true
+        }
+      ],
+      "is_valid": true
+    },
+    {
+      "status": "success",
+      "contract": "0x0441429bbe613ced447881b1bce1e073fe300b23",
+      "sstore_count": 35,
+      "valid_sstores": 35,
+      "invalid_sstores": 0,
+      "differences": [
+        {
+          "original_sstore_index": 0,
+          "original_position": 352,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 1,
+          "original_position": 3416,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 2,
+          "original_position": 3862,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 3,
+          "original_position": 4006,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 4,
+          "original_position": 4456,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 5,
+          "original_position": 4634,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 6,
+          "original_position": 4750,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 7,
+          "original_position": 4756,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 8,
+          "original_position": 4900,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 9,
+          "original_position": 4994,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 10,
+          "original_position": 5834,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 11,
+          "original_position": 5846,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 12,
+          "original_position": 5852,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 13,
+          "original_position": 5858,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 14,
+          "original_position": 6330,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 15,
+          "original_position": 6552,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 16,
+          "original_position": 7022,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 17,
+          "original_position": 7904,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 18,
+          "original_position": 10530,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 19,
+          "original_position": 10542,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 20,
+          "original_position": 10652,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 21,
+          "original_position": 10664,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 22,
+          "original_position": 11392,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 23,
+          "original_position": 12128,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 24,
+          "original_position": 12308,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 25,
+          "original_position": 12320,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 26,
+          "original_position": 12454,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 27,
+          "original_position": 12468,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 28,
+          "original_position": 12480,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 29,
+          "original_position": 12482,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 30,
+          "original_position": 12682,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 31,
+          "original_position": 12766,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 32,
+          "original_position": 13750,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 33,
+          "original_position": 13792,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 34,
+          "original_position": 13824,
+          "is_instrumented": true
+        }
+      ],
+      "is_valid": true
+    },
+    {
+      "status": "success",
+      "contract": "0x03B48BA08EA58601147607188B9f6c9eBe4E5e03",
+      "sstore_count": 35,
+      "valid_sstores": 35,
+      "invalid_sstores": 0,
+      "differences": [
+        {
+          "original_sstore_index": 0,
+          "original_position": 1162,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 1,
+          "original_position": 1620,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 2,
+          "original_position": 1690,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 3,
+          "original_position": 2362,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 4,
+          "original_position": 2604,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 5,
+          "original_position": 3006,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 6,
+          "original_position": 3540,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 7,
+          "original_position": 4004,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 8,
+          "original_position": 4302,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 9,
+          "original_position": 6650,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 10,
+          "original_position": 7956,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 11,
+          "original_position": 7968,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 12,
+          "original_position": 7974,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 13,
+          "original_position": 7980,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 14,
+          "original_position": 7986,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 15,
+          "original_position": 8230,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 16,
+          "original_position": 9432,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 17,
+          "original_position": 11742,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 18,
+          "original_position": 11882,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 19,
+          "original_position": 12474,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 20,
+          "original_position": 13404,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 21,
+          "original_position": 14134,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 22,
+          "original_position": 14304,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 23,
+          "original_position": 14426,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 24,
+          "original_position": 15802,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 25,
+          "original_position": 15970,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 26,
+          "original_position": 18604,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 27,
+          "original_position": 18654,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 28,
+          "original_position": 18680,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 29,
+          "original_position": 18724,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 30,
+          "original_position": 18868,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 31,
+          "original_position": 18918,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 32,
+          "original_position": 18944,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 33,
+          "original_position": 18988,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 34,
+          "original_position": 19044,
+          "is_instrumented": true
+        }
+      ],
+      "is_valid": true
+    },
+    {
+      "status": "success",
+      "contract": "0x4cb5877469fe0e7b5f0aaaa69e84110bcdafc3d5",
+      "sstore_count": 28,
+      "valid_sstores": 28,
+      "invalid_sstores": 0,
+      "differences": [
+        {
+          "original_sstore_index": 0,
+          "original_position": 2422,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 1,
+          "original_position": 2566,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 2,
+          "original_position": 2744,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 3,
+          "original_position": 3136,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 4,
+          "original_position": 3252,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 5,
+          "original_position": 3258,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 6,
+          "original_position": 3450,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 7,
+          "original_position": 3712,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 8,
+          "original_position": 4210,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 9,
+          "original_position": 4278,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 10,
+          "original_position": 4952,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 11,
+          "original_position": 5362,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 12,
+          "original_position": 5420,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 13,
+          "original_position": 5476,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 14,
+          "original_position": 5518,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 15,
+          "original_position": 6234,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 16,
+          "original_position": 6942,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 17,
+          "original_position": 6952,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 18,
+          "original_position": 7964,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 19,
+          "original_position": 8146,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 20,
+          "original_position": 8156,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 21,
+          "original_position": 9334,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 22,
+          "original_position": 10040,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 23,
+          "original_position": 10432,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 24,
+          "original_position": 10516,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 25,
+          "original_position": 11504,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 26,
+          "original_position": 11546,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 27,
+          "original_position": 11578,
+          "is_instrumented": true
+        }
+      ],
+      "is_valid": true
+    },
+    {
+      "status": "success",
+      "contract": "0x4ceaa66ad75a601bf0754a0c64728a8c5f2c5fc4",
+      "sstore_count": 28,
+      "valid_sstores": 28,
+      "invalid_sstores": 0,
+      "differences": [
+        {
+          "original_sstore_index": 0,
+          "original_position": 2440,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 1,
+          "original_position": 2584,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 2,
+          "original_position": 2766,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 3,
+          "original_position": 3158,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 4,
+          "original_position": 3278,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 5,
+          "original_position": 3284,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 6,
+          "original_position": 3480,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 7,
+          "original_position": 3940,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 8,
+          "original_position": 4012,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 9,
+          "original_position": 4686,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 10,
+          "original_position": 5096,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 11,
+          "original_position": 5158,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 12,
+          "original_position": 5218,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 13,
+          "original_position": 5260,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 14,
+          "original_position": 5762,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 15,
+          "original_position": 6276,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 16,
+          "original_position": 6984,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 17,
+          "original_position": 6994,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 18,
+          "original_position": 8006,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 19,
+          "original_position": 8188,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 20,
+          "original_position": 8198,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 21,
+          "original_position": 9376,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 22,
+          "original_position": 10082,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 23,
+          "original_position": 10474,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 24,
+          "original_position": 10558,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 25,
+          "original_position": 11554,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 26,
+          "original_position": 11596,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 27,
+          "original_position": 11628,
+          "is_instrumented": true
+        }
+      ],
+      "is_valid": true
+    },
+    {
+      "status": "success",
+      "contract": "0x2b0650979bf4811b6685307952be66a67aea2290",
+      "sstore_count": 30,
+      "valid_sstores": 30,
+      "invalid_sstores": 0,
+      "differences": [
+        {
+          "original_sstore_index": 0,
+          "original_position": 2068,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 1,
+          "original_position": 2420,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 2,
+          "original_position": 2680,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 3,
+          "original_position": 2864,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 4,
+          "original_position": 3038,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 5,
+          "original_position": 3430,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 6,
+          "original_position": 3542,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 7,
+          "original_position": 3548,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 8,
+          "original_position": 3574,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 9,
+          "original_position": 3736,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 10,
+          "original_position": 4196,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 11,
+          "original_position": 4260,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 12,
+          "original_position": 4934,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 13,
+          "original_position": 5344,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 14,
+          "original_position": 5398,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 15,
+          "original_position": 5450,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 16,
+          "original_position": 5492,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 17,
+          "original_position": 6208,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 18,
+          "original_position": 6916,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 19,
+          "original_position": 6926,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 20,
+          "original_position": 7938,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 21,
+          "original_position": 8120,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 22,
+          "original_position": 8130,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 23,
+          "original_position": 9302,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 24,
+          "original_position": 10008,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 25,
+          "original_position": 10400,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 26,
+          "original_position": 10484,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 27,
+          "original_position": 11464,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 28,
+          "original_position": 11506,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 29,
+          "original_position": 11538,
+          "is_instrumented": true
+        }
+      ],
+      "is_valid": true
+    },
+    {
+      "status": "success",
+      "contract": "0x4cB4357Fc7B8a965854dd41A72668a3Bd020ad5d",
+      "sstore_count": 10,
+      "valid_sstores": 10,
+      "invalid_sstores": 0,
+      "differences": [
+        {
+          "original_sstore_index": 0,
+          "original_position": 3370,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 1,
+          "original_position": 4784,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 2,
+          "original_position": 5476,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 3,
+          "original_position": 5740,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 4,
+          "original_position": 6228,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 5,
+          "original_position": 6306,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 6,
+          "original_position": 7540,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 7,
+          "original_position": 8214,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 8,
+          "original_position": 8630,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 9,
+          "original_position": 9142,
+          "is_instrumented": true
+        }
+      ],
+      "is_valid": true
+    },
+    {
+      "status": "success",
+      "contract": "0x4ec0e007f514904267fef8e9291feec2a9839964",
+      "sstore_count": 38,
+      "valid_sstores": 38,
+      "invalid_sstores": 0,
+      "differences": [
+        {
+          "original_sstore_index": 0,
+          "original_position": 450,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 1,
+          "original_position": 3240,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 2,
+          "original_position": 3252,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 3,
+          "original_position": 3258,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 4,
+          "original_position": 3264,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 5,
+          "original_position": 3714,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 6,
+          "original_position": 3808,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 7,
+          "original_position": 3902,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 8,
+          "original_position": 4266,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 9,
+          "original_position": 4284,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 10,
+          "original_position": 4312,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 11,
+          "original_position": 4966,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 12,
+          "original_position": 5034,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 13,
+          "original_position": 5062,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 14,
+          "original_position": 5098,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 15,
+          "original_position": 5134,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 16,
+          "original_position": 5280,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 17,
+          "original_position": 5374,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 18,
+          "original_position": 5842,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 19,
+          "original_position": 6120,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 20,
+          "original_position": 6646,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 21,
+          "original_position": 9422,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 22,
+          "original_position": 9434,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 23,
+          "original_position": 9544,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 24,
+          "original_position": 9556,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 25,
+          "original_position": 10124,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 26,
+          "original_position": 10830,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 27,
+          "original_position": 10918,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 28,
+          "original_position": 10930,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 29,
+          "original_position": 11196,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 30,
+          "original_position": 11210,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 31,
+          "original_position": 11222,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 32,
+          "original_position": 11224,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 33,
+          "original_position": 11424,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 34,
+          "original_position": 11508,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 35,
+          "original_position": 12584,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 36,
+          "original_position": 12626,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 37,
+          "original_position": 12658,
+          "is_instrumented": true
+        }
+      ],
+      "is_valid": true
+    },
+    {
+      "status": "success",
+      "contract": "0x2E0794073ec7b08E40D80A41599BB31Df042e4E5",
+      "sstore_count": 7,
+      "valid_sstores": 7,
+      "invalid_sstores": 0,
+      "differences": [
+        {
+          "original_sstore_index": 0,
+          "original_position": 1176,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 1,
+          "original_position": 1296,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 2,
+          "original_position": 1708,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 3,
+          "original_position": 2330,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 4,
+          "original_position": 2356,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 5,
+          "original_position": 2400,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 6,
+          "original_position": 2498,
+          "is_instrumented": true
+        }
+      ],
+      "is_valid": true
+    },
+    {
+      "status": "success",
+      "contract": "0x2ce953d06BA7304c7a37B4DD32030018a878AFEC",
+      "sstore_count": 21,
+      "valid_sstores": 21,
+      "invalid_sstores": 0,
+      "differences": [
+        {
+          "original_sstore_index": 0,
+          "original_position": 298,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 1,
+          "original_position": 1630,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 2,
+          "original_position": 2602,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 3,
+          "original_position": 2960,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 4,
+          "original_position": 3064,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 5,
+          "original_position": 3074,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 6,
+          "original_position": 3666,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 7,
+          "original_position": 3766,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 8,
+          "original_position": 4486,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 9,
+          "original_position": 4948,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 10,
+          "original_position": 5450,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 11,
+          "original_position": 5582,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 12,
+          "original_position": 6064,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 13,
+          "original_position": 7842,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 14,
+          "original_position": 8250,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 15,
+          "original_position": 8416,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 16,
+          "original_position": 8654,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 17,
+          "original_position": 8996,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 18,
+          "original_position": 9028,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 19,
+          "original_position": 9444,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 20,
+          "original_position": 10150,
+          "is_instrumented": true
+        }
+      ],
+      "is_valid": true
+    },
+    {
+      "status": "success",
+      "contract": "0x4DEf2C3b8f5406948a179410313e2CdCdE756978",
+      "sstore_count": 34,
+      "valid_sstores": 34,
+      "invalid_sstores": 0,
+      "differences": [
+        {
+          "original_sstore_index": 0,
+          "original_position": 352,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 1,
+          "original_position": 1694,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 2,
+          "original_position": 3352,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 3,
+          "original_position": 3798,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 4,
+          "original_position": 3942,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 5,
+          "original_position": 4392,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 6,
+          "original_position": 4486,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 7,
+          "original_position": 4630,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 8,
+          "original_position": 4724,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 9,
+          "original_position": 4824,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 10,
+          "original_position": 4836,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 11,
+          "original_position": 4842,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 12,
+          "original_position": 4848,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 13,
+          "original_position": 5320,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 14,
+          "original_position": 5458,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 15,
+          "original_position": 5926,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 16,
+          "original_position": 6408,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 17,
+          "original_position": 9034,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 18,
+          "original_position": 9046,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 19,
+          "original_position": 9156,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 20,
+          "original_position": 9168,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 21,
+          "original_position": 9728,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 22,
+          "original_position": 10434,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 23,
+          "original_position": 10522,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 24,
+          "original_position": 10534,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 25,
+          "original_position": 10800,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 26,
+          "original_position": 10814,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 27,
+          "original_position": 10826,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 28,
+          "original_position": 10828,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 29,
+          "original_position": 11028,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 30,
+          "original_position": 11112,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 31,
+          "original_position": 12188,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 32,
+          "original_position": 12230,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 33,
+          "original_position": 12262,
+          "is_instrumented": true
+        }
+      ],
+      "is_valid": true
+    },
+    {
+      "status": "success",
+      "contract": "0x2f5d65f2cc76fa248cced6a91f09291e8d8f639c",
+      "sstore_count": 14,
+      "valid_sstores": 14,
+      "invalid_sstores": 0,
+      "differences": [
+        {
+          "original_sstore_index": 0,
+          "original_position": 2270,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 1,
+          "original_position": 2884,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 2,
+          "original_position": 2924,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 3,
+          "original_position": 3230,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 4,
+          "original_position": 3348,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 5,
+          "original_position": 4022,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 6,
+          "original_position": 4088,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 7,
+          "original_position": 4408,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 8,
+          "original_position": 4926,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 9,
+          "original_position": 5294,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 10,
+          "original_position": 5404,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 11,
+          "original_position": 5572,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 12,
+          "original_position": 6000,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 13,
+          "original_position": 6108,
+          "is_instrumented": true
+        }
+      ],
+      "is_valid": true
+    },
+    {
+      "status": "success",
+      "contract": "0x2ec7a973f364727b635636573c320f591f32f6d9",
+      "sstore_count": 34,
+      "valid_sstores": 34,
+      "invalid_sstores": 0,
+      "differences": [
+        {
+          "original_sstore_index": 0,
+          "original_position": 330,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 1,
+          "original_position": 3172,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 2,
+          "original_position": 3226,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 3,
+          "original_position": 3618,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 4,
+          "original_position": 3762,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 5,
+          "original_position": 4212,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 6,
+          "original_position": 4306,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 7,
+          "original_position": 4450,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 8,
+          "original_position": 4544,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 9,
+          "original_position": 4644,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 10,
+          "original_position": 4656,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 11,
+          "original_position": 4662,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 12,
+          "original_position": 4668,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 13,
+          "original_position": 4682,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 14,
+          "original_position": 4956,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 15,
+          "original_position": 5424,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 16,
+          "original_position": 5906,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 17,
+          "original_position": 8532,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 18,
+          "original_position": 8544,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 19,
+          "original_position": 8654,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 20,
+          "original_position": 8666,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 21,
+          "original_position": 9388,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 22,
+          "original_position": 10180,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 23,
+          "original_position": 10268,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 24,
+          "original_position": 10280,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 25,
+          "original_position": 10546,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 26,
+          "original_position": 10560,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 27,
+          "original_position": 10572,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 28,
+          "original_position": 10574,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 29,
+          "original_position": 10774,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 30,
+          "original_position": 10858,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 31,
+          "original_position": 11938,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 32,
+          "original_position": 11980,
+          "is_instrumented": true
+        },
+        {
+          "original_sstore_index": 33,
+          "original_position": 12012,
+          "is_instrumented": true
+        }
+      ],
+      "is_valid": true
+    }
+  ]
+}

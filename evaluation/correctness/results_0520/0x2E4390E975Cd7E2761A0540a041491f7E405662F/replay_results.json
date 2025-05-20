@@ -1,0 +1,57 @@
+[
+  {
+    "hash": "0x6975c335ff6f45b3606d4baad589d8526e1813eecc2e37b8449c6b20cf053a88",
+    "status": "failed",
+    "error": "Returned error: Cannot wrap string value \"\" as a json-rpc type; strings must be prefixed with \"0x\"."
+  },
+  {
+    "hash": "0xf46e51dfc3c8e2ad34ddcacf0ee1128afdc87bcd6abf8a262537e16c6793e4e3",
+    "status": "success",
+    "result": "0x"
+  },
+  {
+    "hash": "0xa625fe8463805dadc1b674452c3a577ba20238e226b11b3e6ecbad914bdacc36",
+    "status": "failed",
+    "error": "Returned error: VM Exception while processing transaction: insufficient balance"
+  },
+  {
+    "hash": "0x6978bcf09cefdbf5cb5831b799b4e320f0229cbffb0e178b24a58454a3bd0807",
+    "status": "success",
+    "result": "0x"
+  },
+  {
+    "hash": "0x4e5b51e9cbfef347e506493f2bddb29672bfd8077dd80ca88babab1a7d670225",
+    "status": "failed",
+    "error": "Returned error: VM Exception while processing transaction: insufficient balance"
+  },
+  {
+    "hash": "0x327c908fdb5341f103de42f49f9c80f032226668f3100a064002e7609744eb1d",
+    "status": "failed",
+    "error": "Returned error: VM Exception while processing transaction: insufficient balance"
+  },
+  {
+    "hash": "0xb04edc40545d1f163ad487d88d23ed8bade42ff8770935d05f5a41099cc45cea",
+    "status": "failed",
+    "error": "Returned error: VM Exception while processing transaction: insufficient balance"
+  },
+  {
+    "hash": "0xe820903db42897084829f28501157af72df4c950bac22af7ea3e98dbcc1dcffa",
+    "status": "failed",
+    "error": "Returned error: VM Exception while processing transaction: insufficient balance"
+  },
+  {
+    "hash": "0x6d9a1955bd4d62f9126cffd5e36f7266632ddca81b539f819ad437cdc8b7b021",
+    "status": "failed",
+    "error": "Returned error: VM Exception while processing transaction: insufficient balance"
+  },
+  {
+    "hash": "0x70f64ce4f7e250f007d9a14c87827be53f552f721da9e8f467365891ac349e86",
+    "status": "failed",
+    "error": "Returned error: VM Exception while processing transaction: insufficient balance"
+  },
+  {
+    "hash": "0xd69dbe45ac5cf9aa9dc1edd8692654e4e417bc828e49135cdc3e770bfb2add47",
+    "status": "success",
+    "result": "0x"
+  }
+]

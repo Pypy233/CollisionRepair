@@ -1,0 +1,57 @@
+{
+  "summary": {
+    "totalTransactions": 8,
+    "successfulTransactions": 6,
+    "outOfGasTransactions": 0,
+    "otherErrors": 2,
+    "timestamp": "2025-05-20T17:23:52.215Z"
+  },
+  "transactions": [
+    {
+      "hash": "0xbf80de392fa2a410956ad7dbb50e9a66fef27ed9a30d9cbe21f1be040e250d9f",
+      "status": "failed",
+      "error": "Returned error: Cannot wrap string value \"\" as a json-rpc type; strings must be prefixed with \"0x\"."
+    },
+    {
+      "hash": "0x0e1885c13893fc30c49667af32c0e4219354d788e56a5fa876e1a92c5e785f11",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 141770
+    },
+    {
+      "hash": "0xe423ae1e7a9dbff6da06594c33df540b8e02977f6770eab9fd697f21d1a4ebf0",
+      "status": "failed",
+      "error": "Returned error: VM Exception while processing transaction: insufficient balance"
+    },
+    {
+      "hash": "0xaa6fc30066fb2d0697a342e6345bff280bfafd78301f5fbb135bb9798c696350",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 3778031
+    },
+    {
+      "hash": "0x66680dc4f20a2cd7ad9d7b009b0307eb496500def416a5403169f9b030773297",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 72703
+    },
+    {
+      "hash": "0x4af95d3cd13ec1874c5ef35ce5f27e7c44edefc2cfcb3590d6a8825824dce1ed",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 72703
+    },
+    {
+      "hash": "0x3fdd5d5277cc353d8272d5760ed1781ac409bd704ad435c526e02ecc2fe8337f",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 72703
+    },
+    {
+      "hash": "0x0c62eda109b59c50fae04e551cae1edf2825da2f3f97aba2a72f65b7fefea3f2",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 43527
+    }
+  ]
+}

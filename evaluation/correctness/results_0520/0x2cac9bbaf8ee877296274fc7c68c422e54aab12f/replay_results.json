@@ -1,0 +1,70 @@
+{
+  "summary": {
+    "totalTransactions": 10,
+    "successfulTransactions": 9,
+    "outOfGasTransactions": 0,
+    "otherErrors": 1,
+    "timestamp": "2025-05-20T17:16:02.639Z"
+  },
+  "transactions": [
+    {
+      "hash": "0xa6569722efeba2488000d893f8d73285792495c43739b2bbfc4ee9d7ba2b76ad",
+      "status": "failed",
+      "error": "Returned error: Cannot wrap string value \"\" as a json-rpc type; strings must be prefixed with \"0x\"."
+    },
+    {
+      "hash": "0x7d88977a1d59230bd81f21e282ed77274511f4709095700ae4ad142041af1ce9",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 86058
+    },
+    {
+      "hash": "0xf038c585772e08462dece1073dd9c50ab8d8e0aae59f3378b9e6855fe5e69d53",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 111848
+    },
+    {
+      "hash": "0x3d4bae4396f4cc38723e094dd87234be10875ea6ef17c0dd133ce7aa02b1b89d",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 200000
+    },
+    {
+      "hash": "0x04c9fb342272695cab82e0c81ae1fb816aa144540cef1d6cd80112cb490abbeb",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 141020
+    },
+    {
+      "hash": "0xf5d57f5e5b013386b8d49a4abad20fefccffeb4fcd9c8db4092f974ec6e87920",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 141020
+    },
+    {
+      "hash": "0x836f6b447f61112379f276d1cb8f0f9347db6cafd0840a9d94f59ab45f255850",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 111848
+    },
+    {
+      "hash": "0x1965bb5fc43d0560870b60012ef6a16a2ef45582257b468214166cbf794d418e",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 141020
+    },
+    {
+      "hash": "0x7986347af97ee9f9b5b5948ae79776eeb160bcf1180f334bf7c7b68cea236dbd",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 1600000
+    },
+    {
+      "hash": "0x1728387099905f616942e9068dfdee8034f427674776c450112cc589eb585dd1",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 141020
+    }
+  ]
+}

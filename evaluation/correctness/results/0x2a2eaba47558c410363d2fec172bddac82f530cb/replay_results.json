@@ -1,0 +1,42 @@
+[
+  {
+    "hash": "0xc381a05ab2037b7b2ccb3927a182ab7b45045984ad1e6de4a5cc3fcb5442c504",
+    "status": "failed",
+    "error": "Returned error: Cannot wrap string value \"\" as a json-rpc type; strings must be prefixed with \"0x\"."
+  },
+  {
+    "hash": "0x81fa9f7cd076f08eaa5da83ccb7d6c5c068fc66ed79f6c625d19c92dda40c3ae",
+    "status": "success",
+    "result": "0x"
+  },
+  {
+    "hash": "0xee4d3d3de477f58f80a2654c271abaaf048c5ae7445fc83012e394e746f15f89",
+    "status": "success",
+    "result": "0x"
+  },
+  {
+    "hash": "0x3602aef2e080564438788bcec30e8c4ee6be7bdcb45f2144a91bfd79f8e6c4d0",
+    "status": "success",
+    "result": "0x"
+  },
+  {
+    "hash": "0x52d16828dfd056344470ff3edb339015b43d1522a0fbbb4872b1da5688601caa",
+    "status": "success",
+    "result": "0x"
+  },
+  {
+    "hash": "0x35dc034a148024772873b6233574f01f48e044b94bffe5949ce7a7163877efcb",
+    "status": "success",
+    "result": "0x"
+  },
+  {
+    "hash": "0x6e01c40ab6165dbff6bd7e45a79413930b013133465e8d26641bafc9baedc137",
+    "status": "success",
+    "result": "0x"
+  },
+  {
+    "hash": "0xa19a81df8d4114276a623365f644cd4db7746ebe3a9d643dd9b211995d3a7881",
+    "status": "success",
+    "result": "0x"
+  }
+]

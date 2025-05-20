@@ -1,0 +1,69 @@
+{
+  "summary": {
+    "totalTransactions": 10,
+    "successfulTransactions": 8,
+    "outOfGasTransactions": 0,
+    "otherErrors": 2,
+    "timestamp": "2025-05-20T17:20:35.824Z"
+  },
+  "transactions": [
+    {
+      "hash": "0x8fe897fecc73fcd18ce901f418119ced8fb524469a1b54f163435d051b4191ab",
+      "status": "failed",
+      "error": "Returned error: Cannot wrap string value \"\" as a json-rpc type; strings must be prefixed with \"0x\"."
+    },
+    {
+      "hash": "0xfc6ba4ebe844c898d47b6bc13a8574dc45a1e06a4ef4c8f2e12533c4ded9dfd0",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 173507
+    },
+    {
+      "hash": "0x51577f360418ae11b05419eb45475ca6a860c10df8652a9417d3cf8fe568c5f8",
+      "status": "failed",
+      "error": "Returned error: VM Exception while processing transaction: insufficient balance"
+    },
+    {
+      "hash": "0x86209c401ba4bb1d54312367f998ff4c41ff728e2360328217b374cfc30007ee",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 3749648
+    },
+    {
+      "hash": "0xf238a3463d8ee62411b94693d67b4d758504256b2bef6d14e07121ad8906e573",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 78721
+    },
+    {
+      "hash": "0x6896960d1de2620a0c71fc53ede2cc3a43462858ee15db5be96a3fea87a5636c",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 43430
+    },
+    {
+      "hash": "0x10c3e95b3d935ab9744355751c714151514019fe42e319d6c56215ecacfbd487",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 1040000
+    },
+    {
+      "hash": "0xed7038936e249250504e215ccb2e634a1e8a18c40f4672b4dd6ecea6b10891e2",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 136734
+    },
+    {
+      "hash": "0x167a1ba93dd5e50bfe26400fa3cb1e5323827d9bdb70589264c6795bb868224a",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 36467
+    },
+    {
+      "hash": "0x16db1aaec4425c0afc7f3a7b82151cdbd73448e06a53b46dc9ac6e341b7a86a1",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 1040000
+    }
+  ]
+}

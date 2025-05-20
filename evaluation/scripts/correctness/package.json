@@ -1,0 +1,12 @@
+{
+  "name": "contract-evaluation",
+  "version": "1.0.0",
+  "description": "Contract evaluation scripts",
+  "main": "deploy_original_replay.js",
+  "scripts": {
+    "start": "node deploy_original_replay.js"
+  },
+  "dependencies": {
+    "ethers": "^5.7.2"
+  }
+} 
