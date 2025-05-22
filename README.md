@@ -105,6 +105,7 @@ node deploy_monitor.js
 Return to the root directory and execute the patching script.
 
 ```bash
+cd ../../
 ./evaluation/correctness/patch.sh
 ```
 
