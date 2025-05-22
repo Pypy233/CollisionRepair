@@ -75,7 +75,7 @@ Failed Transactions:      26776
 Transaction Success Rate: 93.17%
 ```
 
----
+-  **Performance**: This dynamic verification takes less than 1 minute to complete.
 
 ## 3. Applying the Patch Tool
 
