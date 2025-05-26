@@ -1,0 +1,8 @@
+[
+  {
+    "status": "failed",
+    "error": "Command failed: node /Users/py/github/CollisionRepair/js_scripts/batch_run/deploy.js 0x4e2a719b47231a57c5e64934579c390e534a0984 0xF69FfF8CBa4b98b8E573B6F7af1a6EB5B9dFA6CC\nnode:internal/modules/cjs/loader:1408\n  throw err;\n  ^\n\nError: Cannot find module '/Users/py/github/CollisionRepair/js_scripts/batch_run/deploy.js'\n    at Function._resolveFilename (node:internal/modules/cjs/loader:1405:15)\n    at defaultResolveImpl (node:internal/modules/cjs/loader:1061:19)\n    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1066:22)\n    at Function._load (node:internal/modules/cjs/loader:1215:37)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:151:5)\n    at node:internal/main/run_main_module:33:47 {\n  code: 'MODULE_NOT_FOUND',\n  requireStack: []\n}\n\nNode.js v23.11.0\n",
+    "checkpoint": "error",
+    "account": "0xF69FfF8CBa4b98b8E573B6F7af1a6EB5B9dFA6CC"
+  }
+]

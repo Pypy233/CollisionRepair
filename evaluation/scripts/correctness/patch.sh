@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Get the absolute path of the project root directory
-PROJECT_ROOT="/Users/py/github/CollisionRepair"
+PROJECT_ROOT=$(pwd)
 
 # Path to the results directory
 RESULTS_DIR="$PROJECT_ROOT/evaluation/correctness/results"

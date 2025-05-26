@@ -1,0 +1,17 @@
+[
+  {
+    "hash": "0x140486f876883d3364af4703d4f43cef1fc2a48d319ab43f3f25cbcb638a2a2d",
+    "status": "failed",
+    "error": "Returned error: VM Exception while processing transaction: insufficient balance"
+  },
+  {
+    "hash": "0x63e438545638cd3052021ebf2493cdff79759b6cee5e8de3b4f2749a4066c4af",
+    "status": "failed",
+    "error": "Returned error: VM Exception while processing transaction: insufficient balance"
+  },
+  {
+    "hash": "0x795bb827043cf32bae2cac5f7f06f85aeaa239270667cd481dfbeeaa3906fabd",
+    "status": "failed",
+    "error": "Returned error: Cannot wrap string value \"\" as a json-rpc type; strings must be prefixed with \"0x\"."
+  }
+]

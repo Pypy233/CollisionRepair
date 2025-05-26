@@ -1,0 +1,12 @@
+[
+  {
+    "hash": "0xf2ed52650a46594b2f8a99cd7bc2c2a4f7d089994f490b4df33000711059dfee",
+    "status": "failed",
+    "error": "Returned error: Cannot wrap string value \"\" as a json-rpc type; strings must be prefixed with \"0x\"."
+  },
+  {
+    "hash": "0xf4dd31fee63ced6a761604c9ef20b1b140e43ceec93cc8d91eff3a1f62c2d501",
+    "status": "success",
+    "result": "0x"
+  }
+]

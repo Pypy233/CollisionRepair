@@ -1,0 +1,88 @@
+{
+  "summary": {
+    "totalTransactions": 13,
+    "successfulTransactions": 12,
+    "outOfGasTransactions": 0,
+    "otherErrors": 1,
+    "timestamp": "2025-05-20T17:13:37.775Z"
+  },
+  "transactions": [
+    {
+      "hash": "0xce2b9dfdbcef047831835e72a3098b8be965cc3779803474985475e404552758",
+      "status": "failed",
+      "error": "Returned error: Cannot wrap string value \"\" as a json-rpc type; strings must be prefixed with \"0x\"."
+    },
+    {
+      "hash": "0x286245c4a7becbb1b99d7e2a76b1890fd329839cbe0ac7891198e406eaeb879f",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 92700
+    },
+    {
+      "hash": "0xdafb7c57d22dded5febef38d330862cff0bb32b3881af9c2cda16e9b683003ed",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 235790
+    },
+    {
+      "hash": "0xed5f75b44e904f109fdf58beb6f9a438277d17c2f060a91ecc6d37bd5ef19cff",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 92700
+    },
+    {
+      "hash": "0x814a2626e9de8c5fd66aeee8b5916bbf07cd997a02efae1817c5dd886151ddb6",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 153618
+    },
+    {
+      "hash": "0x56fe194d4a3e1403034a064e3005022b3311024d2bd3d3bfc82849ce37c7fb45",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 176454
+    },
+    {
+      "hash": "0x1eefcce5e7ff9916cfe72875481539fb0e99d2bfa568e5fcf1c830f43216b383",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 138942
+    },
+    {
+      "hash": "0x4e6aa63c0b4ed5536c9fe60e05e9286c6c570f135fc3c5fcaeab9d11255d0b89",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 79242
+    },
+    {
+      "hash": "0xfcfb8b45f8902268ef48040bc27ca814774a5e1930cdb366cb0f56be66c224f1",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 138942
+    },
+    {
+      "hash": "0x0438dbf1c8e341892882480235fdcaf0ce14e4221806749c507fbea38eabf16a",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 87966
+    },
+    {
+      "hash": "0x81bff29a85a97b5702d3d5423587ba6f69dcb1c4bcd979b038e0da6db8868ec3",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 87426
+    },
+    {
+      "hash": "0x85df32a6c919b24a839984053dadc6ea9b5cf358e77e02a81db0f0a482d7c6d9",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 87426
+    },
+    {
+      "hash": "0xe7759a12f433da3696688a04a236980b60f7a3c6b9ea130450807fb25b2bf800",
+      "status": "success",
+      "result": "0x",
+      "gasUsed": 87426
+    }
+  ]
+}
