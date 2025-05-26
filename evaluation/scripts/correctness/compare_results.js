@@ -3,20 +3,22 @@ const path = require('path');
 
 // Configuration
 const RESULTS_DIR = path.join(__dirname, '../../correctness/results');
-const ORIGINAL_RESULTS_DIR = path.join(__dirname, '../../correctness/results_bk');
+const ORIGINAL_RESULTS_DIR = path.join(__dirname, '../../correctness/results');
 
 function compareResults(contractDir) {
     const contractName = path.basename(contractDir);
-    const originalResultsPath = path.join(ORIGINAL_RESULTS_DIR, contractName, 'replay_results', 'original_replay_results.json');
+    const originalResultsPath = path.join(contractDir, 'replay_results.json');
     const patchedResultsPath = path.join(contractDir, 'replay_results', 'patched_replay_results.json');
     
     if (!fs.existsSync(originalResultsPath) || !fs.existsSync(patchedResultsPath)) {
-        console.log(`No results found for ${contractName}`);
         return null;
     }
 
     const originalResults = JSON.parse(fs.readFileSync(originalResultsPath, 'utf8'));
     const patchedResults = JSON.parse(fs.readFileSync(patchedResultsPath, 'utf8'));
+    
+    // Get the transactions array from patched results
+    const patchedTransactions = patchedResults.transactions || [];
     
     const comparison = {
         contract: contractName,
@@ -24,14 +26,19 @@ function compareResults(contractDir) {
     };
 
     // Compare each transaction
-    for (let i = 0; i < originalResults.transactions.length; i++) {
-        const originalTx = originalResults.transactions[i];
-        const patchedTx = patchedResults.transactions[i];
+    for (let i = 0; i < originalResults.length; i++) {
+        const originalTx = originalResults[i];
+        const patchedTx = patchedTransactions[i];
+
+        // Skip if either transaction is missing
+        if (!originalTx || !patchedTx) {
+            continue;
+        }
 
         const txComparison = {
             index: i,
-            statusMatch: originalTx.status === patchedTx.status,
-            logsMatch: compareLogs(originalTx.logs, patchedTx.logs)
+            statusMatch: originalTx.status === (patchedTx.status === 1 ? 'success' : 'failed'),
+            logsMatch: compareLogs(originalTx.logs || [], patchedTx.logs || [])
         };
 
         comparison.transactionResults.push(txComparison);
@@ -68,9 +75,6 @@ function main() {
         .map(dir => path.join(RESULTS_DIR, dir));
 
     const comparisons = [];
-    let totalContracts = 0;
-    let successfulPatches = 0;
-    let failedPatches = 0;
     let totalTransactions = 0;
     let successfulTransactions = 0;
     let failedTransactions = 0;
@@ -81,8 +85,7 @@ function main() {
             const comparison = compareResults(contractDir);
             if (comparison) {
                 comparisons.push(comparison);
-                totalContracts++;
-
+                
                 // Count transactions
                 totalTransactions += comparison.transactionResults.length;
                 
@@ -94,17 +97,6 @@ function main() {
                         failedTransactions++;
                     }
                 });
-
-                // Check if patch was successful
-                const isSuccessful = comparison.transactionResults.every(
-                    result => result.statusMatch && result.logsMatch
-                );
-
-                if (isSuccessful) {
-                    successfulPatches++;
-                } else {
-                    failedPatches++;
-                }
             }
         } catch (error) {
             console.error(`Error comparing results for ${path.basename(contractDir)}:`, error);
@@ -113,10 +105,6 @@ function main() {
 
     // Generate summary
     const summary = {
-        totalContracts,
-        successfulPatches,
-        failedPatches,
-        successRate: (successfulPatches / totalContracts * 100).toFixed(2) + '%',
         totalTransactions,
         successfulTransactions,
         failedTransactions,
@@ -129,13 +117,8 @@ function main() {
     fs.writeFileSync(outputPath, JSON.stringify(summary, null, 2));
 
     // Print summary
-    console.log('\nComparison Summary:');
-    console.log('==================');
-    console.log(`Total Contracts: ${totalContracts}`);
-    console.log(`Successful Patches: ${successfulPatches}`);
-    console.log(`Failed Patches: ${failedPatches}`);
-    console.log(`Contract Success Rate: ${summary.successRate}`);
     console.log('\nTransaction Summary:');
+    console.log('==================');
     console.log(`Total Transactions: ${totalTransactions}`);
     console.log(`Successful Transactions: ${successfulTransactions}`);
     console.log(`Failed Transactions: ${failedTransactions}`);

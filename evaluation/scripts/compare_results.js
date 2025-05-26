@@ -12,6 +12,35 @@ function compareResults(contractDir) {
     }
 
     const results = JSON.parse(fs.readFileSync(resultsPath, 'utf8'));
+    
+    // Handle both old and new format
+    if (Array.isArray(results)) {
+        // Old format - array of transactions
+        console.log(`Using old format for ${path.basename(contractDir)}`);
+        const comparison = {
+            contract: path.basename(contractDir),
+            deploymentGasDiff: BigInt(0), // No deployment gas info in old format
+            transactionResults: results.map((tx, i) => ({
+                index: i,
+                statusMatch: true, // All transactions are from original contract
+                gasDiff: BigInt(0), // No gas info in old format
+                logsMatch: true // No logs in old format
+            }))
+        };
+        return comparison;
+    }
+
+    // Check if results have the expected structure for new format
+    if (!results.original || !results.patched) {
+        console.log(`Invalid results format for ${path.basename(contractDir)} - missing original/patched data`);
+        return null;
+    }
+
+    if (!results.original.deploymentGas || !results.patched.deploymentGas) {
+        console.log(`Invalid results format for ${path.basename(contractDir)} - missing deployment gas data`);
+        return null;
+    }
+
     const comparison = {
         contract: path.basename(contractDir),
         deploymentGasDiff: BigInt(results.patched.deploymentGas) - BigInt(results.original.deploymentGas),

@@ -4,7 +4,33 @@ const path = require('path');
 
 // Configuration
 const RESULTS_DIR = path.join(__dirname, '../../correctness/results');
+const CHECKPOINT_PATH = path.join(__dirname, '../../correctness/checkpoints/patch_replay_checkpoint.json');
 const RPC_URL = 'http://localhost:7545'; // Change this to your node URL
+
+// Load checkpoint
+function loadCheckpoint() {
+    if (fs.existsSync(CHECKPOINT_PATH)) {
+        try {
+            const data = JSON.parse(fs.readFileSync(CHECKPOINT_PATH, 'utf8'));
+            return new Set(data.completed || []);
+        } catch (e) {
+            console.error('Error reading checkpoint, starting fresh.');
+        }
+    }
+    return new Set();
+}
+
+// Save checkpoint
+function saveCheckpoint(completedSet) {
+    const checkpointDir = path.dirname(CHECKPOINT_PATH);
+    if (!fs.existsSync(checkpointDir)) {
+        fs.mkdirSync(checkpointDir, { recursive: true });
+    }
+    fs.writeFileSync(CHECKPOINT_PATH, JSON.stringify({
+        completed: Array.from(completedSet),
+        timestamp: new Date().toISOString()
+    }, null, 2));
+}
 
 async function deployAndReplay(contractDir) {
     const provider = new ethers.providers.JsonRpcProvider(RPC_URL);
@@ -74,23 +100,37 @@ async function main() {
     const contractDirs = fs.readdirSync(RESULTS_DIR)
         .filter(dir => dir.startsWith('0x'))
         .map(dir => path.join(RESULTS_DIR, dir));
-    
+
+    // Load checkpoint
+    const completed = loadCheckpoint();
+
     // Process each contract
     for (const contractDir of contractDirs) {
+        const contractName = path.basename(contractDir);
+        if (completed.has(contractName)) {
+            console.log(`Skipping ${contractName} (already processed)`);
+            continue;
+        }
         try {
-            console.log(`\nProcessing ${path.basename(contractDir)}...`);
+            console.log(`\nProcessing ${contractName}...`);
             // Check if required files exist
             const requiredFiles = ['bytecode_patched.hex', 'transactions.json'];
             const missingFiles = requiredFiles.filter(file => !fs.existsSync(path.join(contractDir, file)));
             
             if (missingFiles.length > 0) {
-                console.error(`Skipping ${path.basename(contractDir)}: Missing required files: ${missingFiles.join(', ')}`);
+                console.error(`Skipping ${contractName}: Missing required files: ${missingFiles.join(', ')}`);
+                completed.add(contractName);
+                saveCheckpoint(completed);
                 continue;
             }
-            
             await deployAndReplay(contractDir);
+            completed.add(contractName);
+            saveCheckpoint(completed);
         } catch (error) {
-            console.error(`Error processing ${path.basename(contractDir)}:`, error);
+            console.error(`Error processing ${contractName}:`, error);
+            // Still save progress so we can resume
+            completed.add(contractName);
+            saveCheckpoint(completed);
         }
     }
 }

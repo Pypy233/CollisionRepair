@@ -1,8 +1,0 @@
-[
-  {
-    "status": "failed",
-    "error": "Command failed: node /Users/py/github/CollisionRepair/js_scripts/batch_run/deploy.js 0x4cB1420AA77B731acbe258F8CA0f0b9ad4aDbD09 0x0E5Ea2CBe0fd23aE47e51D5bd07FC8b0064AaBC7\nError fetching historical transactions: Error: Etherscan API error: Unexpected error, timeout or server too busy. Please try again later\n    at fetchHistoricalTransactions (/Users/py/github/CollisionRepair/js_scripts/batch_run/deploy.js:189:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async main (/Users/py/github/CollisionRepair/js_scripts/batch_run/deploy.js:286:30)\nProcess failed: Error: Etherscan API error: Unexpected error, timeout or server too busy. Please try again later\n    at fetchHistoricalTransactions (/Users/py/github/CollisionRepair/js_scripts/batch_run/deploy.js:189:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async main (/Users/py/github/CollisionRepair/js_scripts/batch_run/deploy.js:286:30)\n",
-    "checkpoint": "error",
-    "account": "0x0E5Ea2CBe0fd23aE47e51D5bd07FC8b0064AaBC7"
-  }
-]
